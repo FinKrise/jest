@@ -1,0 +1,14 @@
+const sum = require('./demo1');
+
+test('annetaan vain yksi parametri, palautetaan luku itse', () => {
+    expect(sum(4)).toBe(4);
+});
+
+test('parametrit puuttuvat, heitetään poikkeus', () => { 
+    expect(() => {
+      sum()}).toThrow('ei parametreja');
+  });
+  test('parametrit puuttuvat, heitetään poikkeus', () => { 
+    expect(() => {
+      sum("a", "b")}).toThrow('ei lukuja');
+  });
