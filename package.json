@@ -1,0 +1,23 @@
+{
+  "name": "testikurssi",
+  "version": "1.0.0",
+  "description": "Jest",
+  "main": "demo1.js",
+  "dependencies": {
+    "jest": "^25.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FinKrise/jest.git"
+  },
+  "author": "KT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FinKrise/jest/issues"
+  },
+  "homepage": "https://github.com/FinKrise/jest#readme"
+}

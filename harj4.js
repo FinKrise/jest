@@ -1,14 +1,11 @@
-function ala(a, b, c){
+function ala(a, b){
     if (a === undefined || a === null){
         throw new Error('ei parametreja');
     }
     if (b === undefined || b === null){
         throw new Error('ei parametreja');
     }
-    if (c === undefined || c === null){
-        throw new Error('ei parametreja');
-    }
-    const result = Number(a) * Number(b) / Number(c);
+    const result = Number(a) * Number(b) / 2;
     return result;
 }
 module.exports = ala;

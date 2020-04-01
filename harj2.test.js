@@ -16,3 +16,7 @@ test('Jaetaan kaksi lukua keskenään', () => {
     expect(() => {
         jako("a","b")}).toThrow('ei oikea luku');
  });
+ test('Jakolaskussa nolla jakajana', () => {
+    expect(() => {
+        jako(5,0)}).toThrow('ei voi jakaa nollalla');
+ });
